@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Wild Conservation Species</title>
+  </head>
+  <body>
+    <h1>Species List</h1>
+    <ul>
+      {% for species in species_list %}
+        <li>{{ species.name }} - {{ species.habitat }}</li>
+      {% endfor %}
+    </ul>
+    <a href="{{ url_for('add_species') }}">Add a new species</a>
+  </body>
+</html>

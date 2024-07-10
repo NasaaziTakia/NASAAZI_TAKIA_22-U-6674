@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Add Species</title>
+  </head>
+  <body>
+    <h1>Add a new species</h1>
+    <form action="{{ url_for('add_species') }}" method="post">
+      <label for="name">Species Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="habitat">Habitat:</label>
+      <input type="text" id="habitat" name="habitat"><br><br>
+      <input type="submit" value="Add Species">
+    </form>
+    <a href="{{ url_for('index') }}">Back to Species List</a>
+  </body>
+</html>

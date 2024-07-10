@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2{
+background-color: beige;
+color: floralwhite;
+padding: 10px 0;
+}
+ul{
+    list-style: none;
+    background-color: aliceblue;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+form{
+    display: inline-block;
+    text-align: left;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    
+}
+input{
+    width: 200px;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+
+}
+button:hover{
+    background-color: #ddd;
+    opacity: 0.8;
+    background-color: aquamarine;
+}
+a{
+    text-decoration: none;
+    
+}
